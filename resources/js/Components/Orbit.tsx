@@ -44,7 +44,7 @@ export function Orbit() {
             >
                 <Icons.react />
             </OrbitingCircles>
-            <BorderBeam size={250} duration={6} delay={9} borderWidth={4} />
+            <BorderBeam className="hidden md:block" size={250} duration={6} delay={9} borderWidth={4} />
         </div>
     );
 }

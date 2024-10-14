@@ -96,7 +96,7 @@ const Home = () => {
                     <Wrapper>
                         <Container>
                             <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg ">
-                                <Meteors number={30} />
+                                <Meteors number={50} />
                                 <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[#12131c] to-[#171717] bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
                                     Innovate. Excel. Succeed!
                                 </span>
@@ -110,7 +110,6 @@ const Home = () => {
                                             Get started
                                         </Link>
                                     </RainbowButton>
-                                    ;
                                 </div>
                             </div>
                         </Container>

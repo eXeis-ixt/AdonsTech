@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className=" flex items-start">
         <Link href="/" className=" flex items-center gap-2">
           <Icons.logo className=" w-8 h-8" />
-          <span className=" text-lg font-medium">The Startup</span>
+          <span className=" text-lg font-medium">Adons Tech</span>
         </Link>
       </div>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
       >
         <ul className=" flex items-center justify-center gap-8">
           <li className=" hover:text-foreground/80 text-sm">
-            <Link href="#">Pricing</Link>
+            <Link href="/services">Services</Link>
           </li>
           <li className=" hover:text-foreground/80 text-sm">
             <Link href="#">About</Link>
