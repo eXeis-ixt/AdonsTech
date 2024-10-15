@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link href="/services">Services</Link>
           </li>
           <li className=" hover:text-foreground/80 text-sm">
-            <Link href="#">About</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li className=" hover:text-foreground/80 text-sm">
             <Link href="#">Features</Link>
@@ -49,13 +49,13 @@ const Navbar = () => {
         ) : (
           <>
             <Link
-              href={"/sign-in"}
+              href={"/login"}
               className={buttonVariants({ size: "sm", variant: "ghost" })}
             >
               Login
             </Link>
             <Link
-              href={"/sign-up"}
+              href="/register"
               className={buttonVariants({
                 size: "sm",
                 className: "hidden md:flex ",

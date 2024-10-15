@@ -8,6 +8,7 @@ use Inertia\Inertia;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('services', [HomeController::class, 'services'])->name('services');
+Route::get('portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

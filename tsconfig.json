@@ -8,6 +8,7 @@
         "isolatedModules": true,
         "target": "ESNext",
         "esModuleInterop": true,
+        "noImplicitAny": false,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "noEmit": true,

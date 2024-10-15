@@ -10,6 +10,7 @@ import { RainbowButton } from "@/Components/ui/rainbow-button";
 import SparklesText from "@/Components/ui/sparkles-text";
 import DefaultLayout from "@/Layouts/DefaultLayout";
 import { Link, Head } from "@inertiajs/react";
+import { h1 } from "framer-motion/client";
 
 const Services = () => {
     return (
@@ -18,6 +19,9 @@ const Services = () => {
                 <title>Services</title>
             </Head>
             <DefaultLayout>
+
+
+
                 <section className="w-full relative flex items-center justify-center flex-col px-4 md:px-0 py-8">
                     <Wrapper>
                         {/* <div className="hidden md:block absolute top-0 -right-1/3 w-72 h-72 bg-red-600 rounded-full blur-[10rem] -z-10"></div>
