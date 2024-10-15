@@ -24,7 +24,7 @@ const Portfolio = ({portfolios} : {portfolios : any}) => {
                 <Wrapper>
                     <Container className=" mt-10">
                         <section id="photos">
-                            <div className="columns-2 gap-4 sm:columns-3">
+                            <div className="gird grid-cols-1 md:gird-cols-3 gap-5 sm:columns-3">
                                 {portfolios.map((portfolio) => (
                                     <BlurFade
                                         key={portfolios}

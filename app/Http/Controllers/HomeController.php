@@ -19,7 +19,7 @@ class HomeController extends Controller
         ]);
     }
     public function portfolio(){
-        $portfolios = Portfolio::all();
+        $portfolios = Portfolio::orderBy('created_at', 'DESC')->get();
         return Inertia::render('Portfolio',[
             'portfolios' => $portfolios
         ]);

@@ -55,13 +55,13 @@ const Navbar = () => {
               Login
             </Link>
             <Link
-              href="/register"
+              href="/contact"
               className={buttonVariants({
                 size: "sm",
                 className: "hidden md:flex ",
               })}
             >
-              Start a free trial
+              Contact
             </Link>
           </>
         )}
